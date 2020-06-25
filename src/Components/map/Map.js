@@ -16,7 +16,6 @@ export default function Map() {
 
     //map
     const map = new kakao.maps.Map(container, options);
-
     markerdata.forEach((el) => {
       // 마커를 생성합니다
       new kakao.maps.Marker({
